@@ -40,6 +40,5 @@ sql-data-warehouse-project/
 
 Let me know if you want me to add:
 - Instructions to run the project
-- Sample SQL queries
 - Architecture explanation
-- Tools/technologies used (e.g., Snowflake, BigQuery, DBT, etc.)
+- Tools/technologies used
