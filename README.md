@@ -11,6 +11,7 @@ This project involves:
 
 ## 📁 Repository Structure
 
+```
 sql-data-warehouse-project/
 │
 ├── datasets/ # Raw datasets (e.g., ERP and CRM data)
@@ -33,7 +34,7 @@ sql-data-warehouse-project/
 ├── LICENSE # License information
 ├── .gitignore # Git ignore rules
 └── requirements.txt # Project dependencies
-
+```
 
 ---
 
