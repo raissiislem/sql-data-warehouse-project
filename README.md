@@ -9,30 +9,30 @@ This project involves:
 
 ---
 
-## 📖 Project Overview
+## 📁 Repository Structure
 
-data-warehouse-project/
+sql-data-warehouse-project/
 │
-├── datasets/ # Raw datasets used for the project (e.g., ERP and CRM data)
+├── datasets/ # Raw datasets (e.g., ERP and CRM data)
 │
 ├── docs/ # Documentation and architecture diagrams
-│ ├── data_architecture.png # Medallion architecture diagram (e.g., from Draw.io)
-│ ├── data_catalog.md # Dataset catalog with field descriptions and metadata
-│ ├── data_integration.png # Visualization of table relationships and business logic
-│ ├── data_model.png # Star schema and data modeling diagrams
-│ ├── naming-conventions.md # Guidelines for naming tables, columns, and files
+│ ├── data_architecture.png # Medallion architecture diagram
+│ ├── data_catalog.md # Dataset catalog with metadata
+│ ├── data_integration.png # Table relationships and business logic
+│ ├── data_model.png # Star schema diagrams
+│ ├── naming-conventions.md # Naming guidelines
 │
-├── scripts/ # SQL scripts for ETL and transformation
-│ ├── bronze/ # Scripts for ingesting raw data
-│ ├── silver/ # Scripts for data cleaning and transformation
-│ ├── gold/ # Scripts for building analytical models
+├── scripts/ # SQL scripts for ETL
+│ ├── bronze/ # Raw data ingestion
+│ ├── silver/ # Data cleaning and transformation
+│ ├── gold/ # Analytical model creation
 │
-├── tests/ # Data validation and quality assurance scripts
+├── tests/ # Data quality test scripts
 │
-├── README.md # Project overview and structure (this file)
-├── LICENSE # License details
+├── README.md # Project overview
+├── LICENSE # License information
 ├── .gitignore # Git ignore rules
-└── requirements.txt # Project dependencies and tools
+└── requirements.txt # Project dependencies
 
 
 ---
